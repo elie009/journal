@@ -74,3 +74,7 @@ D:\project\C#\git\Journal\Journal\obj\Debug\Journal.csproj.CoreCompileInputs.cac
 D:\project\C#\git\Journal\Journal\obj\Debug\Journal.csproj.CopyComplete
 D:\project\C#\git\Journal\Journal\obj\Debug\Journal.dll
 D:\project\C#\git\Journal\Journal\obj\Debug\Journal.pdb
+D:\project\C#\git\Journal\Journal\bin\EntityFramework.dll
+D:\project\C#\git\Journal\Journal\bin\EntityFramework.SqlServer.dll
+D:\project\C#\git\Journal\Journal\bin\EntityFramework.xml
+D:\project\C#\git\Journal\Journal\bin\EntityFramework.SqlServer.xml
