@@ -20,5 +20,6 @@ namespace Journal.Models
         }
 
         public System.Data.Entity.DbSet<Journal.Models.JournalItem> JournalItems { get; set; }
+        public System.Data.Entity.DbSet<Journal.Models.JournalDetails> JournalDetails { get; set; }
     }
 }

@@ -389,8 +389,17 @@
     <Compile Include="Migrations\202302120142160_JournalContext.Designer.cs">
       <DependentUpon>202302120142160_JournalContext.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302120330108_JournalContext1.cs" />
+    <Compile Include="Migrations\202302120330108_JournalContext1.Designer.cs">
+      <DependentUpon>202302120330108_JournalContext1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302120332096_JournalContext2.cs" />
+    <Compile Include="Migrations\202302120332096_JournalContext2.Designer.cs">
+      <DependentUpon>202302120332096_JournalContext2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\JournalContext.cs" />
+    <Compile Include="Models\JournalDetails.cs" />
     <Compile Include="Models\JournalItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -459,6 +468,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202302120142160_JournalContext.resx">
       <DependentUpon>202302120142160_JournalContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302120330108_JournalContext1.resx">
+      <DependentUpon>202302120330108_JournalContext1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302120332096_JournalContext2.resx">
+      <DependentUpon>202302120332096_JournalContext2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

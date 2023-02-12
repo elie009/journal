@@ -224,3 +224,5 @@ D:\project\C#\git\Journal\Journal\bin\System.Text.Encodings.Web.xml
 D:\project\C#\git\Journal\Journal\bin\System.Threading.Tasks.Extensions.xml
 D:\project\C#\git\Journal\Journal\obj\Debug\Journal.Migrations.JournalContext.resources
 D:\project\C#\git\Journal\Journal\obj\Debug\Journal.csproj.GenerateResource.cache
+D:\project\C#\git\Journal\Journal\obj\Debug\Journal.Migrations.JournalContext1.resources
+D:\project\C#\git\Journal\Journal\obj\Debug\Journal.Migrations.JournalContext2.resources
