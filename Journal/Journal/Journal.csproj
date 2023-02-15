@@ -404,27 +404,37 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\favicon.png" />
+    <Content Include="Content\img\testimonial-1.jpg" />
+    <Content Include="Content\img\testimonial-2.jpg" />
+    <Content Include="Content\img\user.jpg" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
-    <Content Include="Scripts\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\lib\chart\chart.min.js" />
+    <Content Include="Scripts\lib\easing\easing.js" />
+    <Content Include="Scripts\lib\easing\easing.min.js" />
+    <Content Include="Scripts\lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="Scripts\lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="Scripts\lib\owlcarousel\owl.carousel.js" />
+    <Content Include="Scripts\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="Scripts\lib\tempusdominus\css\tempusdominus-bootstrap-4.css" />
+    <Content Include="Scripts\lib\tempusdominus\css\tempusdominus-bootstrap-4.min.css" />
+    <Content Include="Scripts\lib\tempusdominus\js\moment-timezone.min.js" />
+    <Content Include="Scripts\lib\tempusdominus\js\moment.min.js" />
+    <Content Include="Scripts\lib\tempusdominus\js\tempusdominus-bootstrap-4.js" />
+    <Content Include="Scripts\lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
+    <Content Include="Scripts\lib\waypoints\links.php" />
+    <Content Include="Scripts\lib\waypoints\waypoints.min.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -453,13 +463,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\lib\owlcarousel\LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
