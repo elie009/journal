@@ -55,10 +55,10 @@ namespace Journal
                       ));
 
             bundles.Add(new StyleBundle("~/css/owlcarousel").Include(
-                      "~/Script/lib/owlcarousel/assets/owl.carousel.min.css"
+                      "~/Scripts/lib/owlcarousel/assets/owl.carousel.min.css"
                       ));
             bundles.Add(new StyleBundle("~/css/tempusdominus").Include(
-                      "~/Script/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+                      "~/Scripts/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
                       ));
         }
     }
