@@ -4,6 +4,94 @@
     ViewBag.Title = "AddItem";
 }
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+
+
+        <div class="modal-content bg-secondary rounded h-100 p-4">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="journalSign" class="form-label">Sign</label>
+                        <select class="form-select mb-3" aria-label="Default select sign">
+                            <option selected>
+                                Please select sign
+                            </option>
+                            <option value="debit">Debit</option>
+                            <option value="credit">Credit</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalType" class="form-label">Type</label>
+                        <select class="form-select mb-3" aria-label="Default select type">
+                            <option selected>
+                                Please select type
+                            </option>
+                            <option value="account">Account</option>
+                            <option value="supplier">Supplier</option>
+                            <option value="customer">Customer</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalAccount" class="form-label">Account</label>
+                        <input type="text" class="form-control" id="journalAccount">
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalRefType" class="form-label">Reference type</label>
+                        <select class="form-select mb-3" aria-label="Default select type">
+                            <option selected>
+                                Please select ref. type
+                            </option>
+                            <option value="against purchase">Against Purchase</option>
+                            <option value="against credit note">Against Credit Note</option>
+                            <option value="as advance">As Advance</option>
+                            <option value="as on account">As On Account</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalRefNo" class="form-label">Reference No.</label>
+                        <input type="text" class="form-control" id="journalRefNo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalAmount" class="form-label">Amount</label>
+                        <input type="text" class="form-control" id="journalAmount">
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalCostCenter" class="form-label">Cost Center</label>
+                        <input type="text" class="form-control" id="journalCostCenter">
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalRefNo" class="form-label">Reference No.</label>
+                        <input type="text" class="form-control" id="journalRefNo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="journalNarration" class="form-label">Narration</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                      id="floatingTextarea" style="height: 150px;"></textarea>
+                            <label for="floatingTextarea">Comments</label>
+                        </div>
+                    </div>
+
+                    
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="container-fluid pt-4 px-4">
     <div class="row g-4">
 
@@ -15,13 +103,11 @@
                     <div class="mb-3">
                         <label for="journalVoucher" class="form-label">Voucher</label>
                         <select class="form-select mb-3" aria-label="Default select voucher">
-                            <option selected>Open this select menu</option>
+                            <option selected>Please select voucher</option>
                             @foreach (var item in Model.voucher)
                             {
-                            <option value=@Html.DisplayFor(modelItem => item.Code)>@Html.DisplayFor(modelItem => item.Name)</option>
+                                <option value=@Html.DisplayFor(modelItem => item.Code)>@Html.DisplayFor(modelItem => item.Name)</option>
                             }
-
-
                         </select>
                     </div>
 
@@ -37,11 +123,8 @@
                     </div>
 
                     <div class="mb-3">
-                        <button type="button" class="btn btn-info rounded-pill m-2">Add Journal Details</button>
+                        <button type="button" class="btn btn-info rounded-pill m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Journal Details</button>
                     </div>
-
-
-
 
                     <button type="submit" class="btn btn-primary">Sign in</button>
                 </form>
