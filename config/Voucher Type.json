@@ -1,0 +1,33 @@
+{
+	"voucher":[
+		{
+			"code":"JV",
+			"name":"Journal Voucher"
+		},
+		{
+			"code":"BR",
+			"name":"Bank Receipt"
+		},
+		{
+			"code":"BP",
+			"name":"Bank Payment"
+		},
+		{
+			"code":"CA",
+			"name":"Cash Receipt"
+		},
+		{
+			"code":"CP",
+			"name":"Cash Payment"
+		},
+		{
+			"code":"DN",
+			"name":"Debit Note"
+		},
+		{
+			"code":"CN",
+			"name":"Credit Note"
+		},
+	
+	]
+}

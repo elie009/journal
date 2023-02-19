@@ -14,6 +14,11 @@ namespace Journal
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "JournalEntry",
+                "Journal/add",
+                new { controller = "JournalItem", action= "AddItem"});
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

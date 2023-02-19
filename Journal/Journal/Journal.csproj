@@ -381,6 +381,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JournalItemController.cs" />
     <Compile Include="Controllers\JournalItemsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -401,6 +402,8 @@
     <Compile Include="Models\JournalContext.cs" />
     <Compile Include="Models\JournalDetails.cs" />
     <Compile Include="Models\JournalItem.cs" />
+    <Compile Include="Models\Vouchers.cs" />
+    <Compile Include="Models\VoucherType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -465,6 +468,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Scripts\lib\owlcarousel\LICENSE" />
+    <Content Include="Views\JournalItem\AddItem.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
