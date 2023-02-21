@@ -416,6 +416,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\JournalItem.js" />
     <Content Include="Scripts\lib\chart\chart.min.js" />
     <Content Include="Scripts\lib\easing\easing.js" />
     <Content Include="Scripts\lib\easing\easing.min.js" />

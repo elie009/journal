@@ -46,6 +46,10 @@ namespace Journal
                         "~/Scripts/main.js"
                         ));
 
+            bundles.Add(new ScriptBundle("~/bundles/script/journal").Include(
+                        "~/Scripts/journalItem.js"
+                        ));
+
             //bundles.Add(new StyleBundle("~/Content/css").Include(
             //          "~/Content/bootstrap-lumen.css",
             //          "~/Content/site.css"));
